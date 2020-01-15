@@ -75,7 +75,7 @@ public class Arraystest {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("정렬조건 선택(1.번호 2.이름 3.점수):");
 		String select = sc.nextLine();
-		Comparator <User> comp2 = null;
+		Comparator <User> comp2 = null; // Comparator 초기값 셋팅 필요. 아무 값도 없으면 없는것과 같다.
 		
 		switch (select) {
 
